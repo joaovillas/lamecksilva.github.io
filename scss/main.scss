@@ -4,7 +4,6 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   @include background;
   background: $primary-color;
@@ -56,7 +55,7 @@ main {
     margin-top: 1rem;
 
     a {
-      padding: 0.4rem;
+      padding: 0.5rem;
 
       &:hover {
         color: $secondary-color;
